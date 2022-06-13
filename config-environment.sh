@@ -1,8 +1,6 @@
 #! /bin/bash
 
-source .env
-
-NEW_ENV="src/environments/environment-new.ts"
+NEW_ENV="./src/environments/environment-new.ts"
 
 rm -f $NEW_ENV
 touch $NEW_ENV
