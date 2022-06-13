@@ -2,7 +2,9 @@
 
 NEW_ENV="./src/environments/environment-new.ts"
 
-rm -f $NEW_ENV
+rm -rf "./src/environments"
+mkdir "./src/environments"
+
 touch $NEW_ENV
 
 echo "export const environment = {" >> $NEW_ENV
